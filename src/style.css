@@ -9,7 +9,7 @@ html, body {
     font-family: "DM-Sans";
 }
 
-.grid-container {
+#content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0;
