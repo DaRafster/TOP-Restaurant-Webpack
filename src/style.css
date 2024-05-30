@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "DM-Sans";
+    src: url("./DMSans-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: "DM-Sans";
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    height: 80%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 0px 20px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav button {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav button:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+}
+
+.account-options {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.home-info {
+    grid-column: 1 / 2;
+    padding: 100px;
+}
+
+.home-image {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+}
+
+.home-image img {
+    width: 70%;
+    border-radius: 64px;
+    margin: 0;
+    align-self: start;
+    margin-top: 30px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.block {
+    letter-spacing: 0px;
+    font-size: 24px;
+    display: block;
+}
+
+.home-info p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.home-info button {
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 32px;
+    background-color: #517d64;
+    border: none;
+    color: white;
+    font-family: "DM-Sans";
+    cursor: pointer;
+    display: block;
+}
+
+.home-info h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: solid 1px black;
+    display: inline-block;
+}
+
+.home-info ul {
+    list-style: none;
+    font-size: 18px;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+
+.home-info li span {
+    font-weight: 580;
+}
+
+.colored {
+    color: #517d64;
+}
+
+a {
+    text-decoration: none;
+}
