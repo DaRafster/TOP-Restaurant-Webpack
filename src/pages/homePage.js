@@ -34,6 +34,14 @@ function homePage() {
   const myRestaurantImage = new Image();
   myRestaurantImage.src = RestaurantImage;
   imageContainer.appendChild(myRestaurantImage);
+  imageContainer.innerHTML += `<div class = "attribution">
+    <p>Photo by 
+      <a href="https://unsplash.com/@kayleighharrington?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"> kayleigh harrington</a> 
+      on <a href="https://unsplash.com/photos/group-of-people-inside-the-restaurant-yhn4okt6ci0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+      Unsplash
+      </a>
+    </p>
+  </div>`;
   content.appendChild(imageContainer);
 }
 

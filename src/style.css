@@ -74,6 +74,7 @@ nav button:hover {
     grid-column: 2 / 3;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .home-image img {
@@ -185,4 +186,18 @@ a {
     padding: 20px 40px;
     font-weight: 450;
     font-size: 20px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 0 10px;
+    border-radius: 64px;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: underline;
 }
