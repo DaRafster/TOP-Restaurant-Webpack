@@ -180,10 +180,11 @@ a {
     width: 350px;
     height: 275px;
     border: solid 2px black;
+    position: relative;
 }
 
 .menu p {
-    padding: 20px 40px;
+    padding: 0 40px;
     font-weight: 450;
     font-size: 20px;
 }
@@ -200,4 +201,13 @@ a {
 .attribution a {
     color: white;
     text-decoration: underline;
+}
+
+.menu .meal-img-attribution {
+    padding: 0 40px;
+    margin: 0;
+}
+
+.menu a {
+    color: #517d64;
 }
