@@ -20,6 +20,9 @@ function recipeCard(image, mealName) {
 }
 
 function menuPage() {
+  if (content.classList.contains("menu")) {
+    return;
+  }
   content.className = "menu";
   content.innerHTML = `<h1>Our Menu</h1>
   <div class = menu-container>
