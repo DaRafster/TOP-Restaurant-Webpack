@@ -5,7 +5,7 @@ function homePage() {
   }
 
   content.className = "home";
-  content.innerHTML = `<div class="home home-info">
+  content.innerHTML = `<div class="home-info">
       <h2>
           <span class="block">Welcome to</span>
           <span class="colored">Thyme Garden</span>

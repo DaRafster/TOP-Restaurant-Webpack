@@ -9,11 +9,29 @@ html, body {
     font-family: "DM-Sans";
 }
 
-#content {
+.home {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0;
     height: 80%;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    height: 80%;
+}
+
+.menu-container > div {
+    display: flex;
+    flex-direction: column;
+    border: solid 10px #517d64;
+    margin: 0 30px;
 }
 
 header {
@@ -72,7 +90,7 @@ nav button:hover {
     cursor: pointer;
 }
 
-h2 {
+.home h2 {
     font-size: 48px;
     letter-spacing: 2px;
 }
@@ -127,4 +145,44 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+.menu h1 {
+    margin-bottom: 75px;
+}
+
+.menu h2 {
+    font-size: 28px;
+}
+
+.menu h1 {
+    margin-bottom: 40px;
+    border-bottom: solid 1px black;
+    display: inline-block;
+}
+
+.meal-card {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.meal-card img {
+    border-radius: 16px;
+    width: 350px;
+    height: 275px;
+    border: solid 2px black;
+}
+
+.menu p {
+    padding: 20px 40px;
+    font-weight: 450;
+    font-size: 20px;
 }

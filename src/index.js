@@ -1,5 +1,6 @@
 import "./style.css";
 import { homePage } from "./pages/homePage";
+import { menuPage } from "./pages/menuPage";
 import SearchIcon from "./images/magnify.svg";
 import AccountIcon from "./images/account-circle.svg";
 import CartIcon from "./images/cart-outline.svg";
@@ -23,11 +24,6 @@ function headerImages() {
   accountOptions.append(searchIcon);
   accountOptions.append(cartIcon);
   accountOptions.append(accountIcon);
-}
-
-function menuPage() {
-  content.className = "menu";
-  content.innerHTML = "";
 }
 
 document.querySelector(".home-btn").addEventListener("click", homePage);
