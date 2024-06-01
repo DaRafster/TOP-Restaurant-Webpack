@@ -241,10 +241,11 @@ a {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .about-container img:not(.icon) {
-    width: 75%;
+    width: 90%;
     border: solid black 2px;
 }
 

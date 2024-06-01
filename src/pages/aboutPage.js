@@ -65,6 +65,9 @@ function aboutPage() {
   chefImage.src = ChefImage;
   tempContainer2.appendChild(chefImage);
 
+  tempContainer2.innerHTML += `<div class = "attribution">Photo by <a href="https://unsplash.com/@sebastiancoman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian Coman Photography</a> on <a href="https://unsplash.com/photos/man-in-black-t-shirt-holding-stainless-steel-bowl-eBmyH7oO5wY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </div>`;
+
   aboutContainer.appendChild(tempContainer1);
   aboutContainer.appendChild(tempContainer2);
   content.appendChild(aboutContainer);
