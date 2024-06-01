@@ -1,4 +1,6 @@
 import RestaurantImage from "../images/restaurant.jpg";
+import { menuPage } from "./menuPage";
+
 function homePage() {
   if (content.classList.contains("home")) {
     return;
@@ -43,6 +45,7 @@ function homePage() {
     </p>
   </div>`;
   content.appendChild(imageContainer);
+  document.querySelector(".home-menu-btn").addEventListener("click", menuPage);
 }
 
 export { homePage };
