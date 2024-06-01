@@ -186,6 +186,10 @@ a {
     position: relative;
 }
 
+.title {
+    cursor: pointer;
+}
+
 .menu p {
     padding: 0 40px;
     font-weight: 450;

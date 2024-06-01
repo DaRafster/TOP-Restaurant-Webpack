@@ -28,6 +28,7 @@ function headerImages() {
 }
 
 document.querySelector(".home-btn").addEventListener("click", homePage);
+document.querySelector(".title").addEventListener("click", homePage);
 document.querySelector(".menu-btn").addEventListener("click", menuPage);
 document.querySelector(".about-btn").addEventListener("click", aboutPage);
 
