@@ -40,7 +40,7 @@ function menuPage() {
     </div>
     <div>
       <h2>Dinner</h2>
-      ${recipeCard(DinnerImage, "Fettucine Alfredo").innerHTML}
+      ${recipeCard(DinnerImage, "Fettuccine Alfredo").innerHTML}
       <p class = "meal-img-attribution">Photo by <a href="https://unsplash.com/@eaterscollective?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Eaters Collective</a> on <a href="https://unsplash.com/photos/pasta-dish-on-white-plate-ddZYOtZUnBk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     </p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
