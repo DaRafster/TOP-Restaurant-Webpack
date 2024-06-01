@@ -1,5 +1,5 @@
 import LunchImage from "../images/steak-with-fries.jpg";
-import DinnerImage from "../images/fettucine-alfredo.jpg";
+import DinnerImage from "../images/fettuccine-alfredo.jpg";
 import DessertImage from "../images/red-velvet-cake.jpg";
 
 function recipeCard(image, mealName) {
