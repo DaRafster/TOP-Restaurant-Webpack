@@ -23,7 +23,7 @@ html, body {
 .menu-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0;
+    gap: 30px;
     height: 80%;
 }
 
@@ -31,7 +31,6 @@ html, body {
     display: flex;
     flex-direction: column;
     border: solid 10px #517d64;
-    margin: 0 30px;
 }
 
 header {
@@ -67,7 +66,7 @@ nav button:hover {
 
 .home-info {
     grid-column: 1 / 2;
-    padding: 100px;
+    padding: 40px 100px;
 }
 
 .home-image {
@@ -148,6 +147,10 @@ a {
     text-decoration: none;
 }
 
+.menu {
+    padding: 0 20px;
+}
+
 .menu h1 {
     margin-bottom: 75px;
 }
@@ -163,7 +166,7 @@ a {
 }
 
 .meal-card {
-    padding: 20px 40px;
+    padding: 0 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,13 +175,13 @@ a {
 
 .menu h3 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .meal-card img {
     border-radius: 16px;
-    width: 350px;
-    height: 275px;
+    width: 300px;
+    height: 225px;
     border: solid 2px black;
     position: relative;
 }
@@ -186,7 +189,7 @@ a {
 .menu p {
     padding: 0 40px;
     font-weight: 450;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .attribution {
@@ -241,7 +244,7 @@ a {
 }
 
 .about-container img:not(.icon) {
-    width: 80%;
+    width: 75%;
     border: solid black 2px;
 }
 

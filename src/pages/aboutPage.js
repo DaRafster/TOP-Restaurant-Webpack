@@ -24,11 +24,6 @@ function aboutPage() {
     consectetur, qui ipsa neque quas, atque commodi hic, quia quaerat quod
     perspiciatis doloribus consequuntur? Lorem ipsum, dolor sit amet
     consectetur adipisicing elit.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    Reprehenderit, fugit sit id asperiores animi provident. Maxime
-    consectetur, qui ipsa neque quas, atque commodi hic, quia quaerat quod
-    perspiciatis doloribus consequuntur? Lorem ipsum, dolor sit amet
-    consectetur adipisicing elit.</p>
     <h2>Contact Us</h2>`;
 
   const contactList = document.createElement("ul");
