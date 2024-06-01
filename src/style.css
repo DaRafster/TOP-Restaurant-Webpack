@@ -197,13 +197,18 @@ a {
     bottom: 20px;
     background-color: rgba(0,0,0,0.5);
     color: white;
-    padding: 0 10px;
+    padding: 10px;
     border-radius: 64px;
+}
+
+.attribution p {
+    margin: 0;
 }
 
 .attribution a {
     color: white;
     text-decoration: underline;
+    padding: 0;
 }
 
 .menu .meal-img-attribution {

@@ -17,7 +17,7 @@ function homePage() {
           perspiciatis doloribus consequuntur? Lorem ipsum, dolor sit amet
           consectetur adipisicing elit. 
       </p>
-      <button>View Menu</button>
+      <button class = "home-menu-btn">View Menu</button>
       <h3>Restaurant Hours</h3>
       <ul>
           <li><span>Monday - Friday:</span> 12:00 PM - 10:30 PM</li>
