@@ -1,6 +1,7 @@
 import "./style.css";
 import { homePage } from "./pages/homePage";
 import { menuPage } from "./pages/menuPage";
+import { aboutPage } from "./pages/aboutPage";
 import SearchIcon from "./images/magnify.svg";
 import AccountIcon from "./images/account-circle.svg";
 import CartIcon from "./images/cart-outline.svg";
@@ -28,6 +29,7 @@ function headerImages() {
 
 document.querySelector(".home-btn").addEventListener("click", homePage);
 document.querySelector(".menu-btn").addEventListener("click", menuPage);
+document.querySelector(".about-btn").addEventListener("click", aboutPage);
 
 headerImages();
 homePage();

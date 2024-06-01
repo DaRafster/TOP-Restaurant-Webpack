@@ -211,3 +211,56 @@ a {
 .menu a {
     color: #517d64;
 }
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.about-container {
+    margin-top: 80px;
+    width: 80%;
+    border: solid 10px #517d64;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    padding: 40px;
+}
+
+.about-container h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.about-container > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-container img:not(.icon) {
+    width: 80%;
+    border: solid black 2px;
+}
+
+.about ul {
+    line-height: 2;
+    margin: 0;
+}
+
+.about .icon {
+    width: 25px;
+    height: 25px;
+}
+
+.about li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.about li span {
+    font-weight: 525;
+}
